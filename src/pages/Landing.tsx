@@ -5,16 +5,16 @@ const Landing: React.FC = () => {
     <div className="Landing">
       <div className="content-wrapper">
         {/* Video Section */}
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/1ZYbU82GVz4?si=dPmP82tg9XCT8cr8"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerPolicy="strict-origin-when-cross-origin"
-          allowFullScreen
-        ></iframe>
+        <div className="video-section">
+          <div className="responsive-video">
+            <iframe
+              src="https://www.youtube.com/embed/1ZYbU82GVz4?si=dPmP82tg9XCT8cr8"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </div>
         <br />
         <br />
         {/* Introduction Section */}
